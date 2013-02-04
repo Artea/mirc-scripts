@@ -14,11 +14,6 @@ alias jsontest {
 
 }
 
-alias testtoken {
-  var %test $tokenize(32,test the tokenizer again,1)
-  echo %test
-}
-
 alias isTwitterURL {
   if ($1-) {
     if (twitter.com/ isin $1- && (/status/ isin $1- || /statuses/ isin $1-)) {
