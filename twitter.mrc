@@ -1,3 +1,9 @@
+;; Tweet content fetcher by Sawyer Pangborn
+;; Listens in a channel for Twitter permalinks and spits out the tweet, if it can find it
+;; 
+;; Copyright 2013
+
+
 alias jsontest {
   var %url = http://api.twitter.com/1/statuses/show/152074025408004096.json
   var %json = {"mydata":"myvalue","mynumbers":[1,2,3,5],"mystuff":{"otherdata":{"2":"4","6":"blah"}}}
